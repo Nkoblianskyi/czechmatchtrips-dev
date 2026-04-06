@@ -33,13 +33,6 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 pt-20 pb-16">
         <div className="max-w-xl">
-          {/* Eyebrow */}
-          <div className="flex items-center gap-2 mb-5">
-            <Zap className="w-4 h-4 text-primary" />
-            <span className="text-xs font-bold uppercase tracking-[0.25em] text-primary">
-              Autorské sportovní zájezdy
-            </span>
-          </div>
 
           {/* Headline */}
           <h1 className="font-black text-5xl md:text-7xl leading-[0.9] text-balance mb-6 uppercase">

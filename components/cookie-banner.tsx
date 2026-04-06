@@ -31,9 +31,6 @@ export default function CookieBanner() {
     <div className="fixed bottom-0 left-0 right-0 z-[100] p-4 md:p-6">
       <div className="max-w-2xl mx-auto bg-card border border-border shadow-2xl p-5">
         <div className="flex items-start gap-4">
-          <div className="flex-shrink-0 w-10 h-10 bg-primary/10 flex items-center justify-center">
-            <Cookie className="w-5 h-5 text-primary" />
-          </div>
           <div className="flex-1 min-w-0">
             <h3 className="font-bold text-sm text-foreground mb-1">Soubory cookie</h3>
             <p className="text-xs text-muted-foreground leading-relaxed">
