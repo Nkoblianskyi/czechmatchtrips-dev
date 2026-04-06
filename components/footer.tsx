@@ -67,10 +67,6 @@ export default function Footer() {
                   info@czechmatchtrips.com
                 </a>
               </li>
-              <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="tel:+420123456789" className="hover:text-foreground transition-colors">+420 123 456 789</a>
-              </li>
             </ul>
           </div>
         </div>
