@@ -32,7 +32,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="font-black text-xl text-foreground uppercase tracking-tight mb-3">1. Správce osobních údajů</h2>
               <p>
-                Správcem vašich osobních údajů je společnost <strong className="text-foreground">K.C. NTOMATA LIMITED</strong>, se sídlem Stylianou Lena 24, Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus. Kontakt: <a href="mailto:info@czechmatchtrips.com" className="text-primary hover:underline">info@czechmatchtrips.com</a>.
+                Správcem vašich osobních údajů je společnost <strong className="text-foreground">K.C. NTOMATA LIMITED</strong>, se sídlem Stylianou Lena 24, Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus.
               </p>
             </section>
 

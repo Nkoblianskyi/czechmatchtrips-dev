@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Mountain, Mail, Phone, MapPin, Facebook, Instagram, Youtube } from 'lucide-react'
+import { Mail, Phone, MapPin } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -9,9 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary flex items-center justify-center rotate-12">
-                <Mountain className="w-4 h-4 text-primary-foreground" />
-              </div>
+              <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
               <span className="font-black text-lg tracking-tight">
                 Czech<span className="text-primary">Match</span>Trips
               </span>
@@ -19,18 +18,6 @@ export default function Footer() {
             <p className="text-muted-foreground text-sm leading-relaxed">
               Autorské sportovní zájezdy po Česku a celé Evropě. Žijte dobrodružství naplno.
             </p>
-            <div className="flex gap-3 mt-5">
-              {[Facebook, Instagram, Youtube].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-9 h-9 bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"
-                  aria-label="Sociální sítě"
-                >
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Navigation */}
