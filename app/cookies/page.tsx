@@ -21,7 +21,7 @@ export default function CookiesPage() {
               Zásady cookies
             </h1>
             <p className="text-muted-foreground mt-3 text-sm">
-              Poslední aktualizace: 6. dubna 2026
+              Poslední aktualizace: 2026
             </p>
           </div>
         </div>
