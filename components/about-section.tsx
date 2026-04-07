@@ -23,7 +23,7 @@ export default function AboutSection() {
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent mix-blend-multiply" />
+            <div className="absolute inset-0 bg-linear-to-br from-primary/20 to-transparent mix-blend-multiply" />
           </div>
           {/* Abstract accent */}
           <div className="absolute -bottom-4 -right-4 w-32 h-32 border-2 border-primary/30 hidden md:block" />
@@ -34,20 +34,20 @@ export default function AboutSection() {
         <div>
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-primary">O nás</span>
           <h2 className="font-black text-4xl md:text-5xl mt-3 mb-5 leading-tight text-balance uppercase">
-            Sportem<br />
-            <span className="text-primary">k srdci</span><br />
-            Evropy
+            Autorskými<br />
+            <span className="text-primary">túrami</span><br />
+            k zážitkům
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            CzechMatchTrips vzniklo z vášně k pohybu a touze sdílet to nejlepší, co Česko a Evropa nabízí aktivním cestovatelům. Každý náš zájezd je pečlivě připraven přímo v terénu — žádné kopírování katalogů.
+            CzechMatchTrips vzniklo z touhy sdílet to nejlepší, co Česko a Evropa nabízí — formou malých autorských výletů s průvodcem. Každá trasa vzniká v terénu, ne v katalogu.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Náš tým průvodců prošlapává trasy celý rok. Opravujeme to, co nefunguje, přidáváme zastávky, které stojí za to. Výsledkem jsou výlety, které budete vyprávět ještě roky.
+            Náš tým trasy prochází a ladí po celý rok. Upravujeme tempo, přidáváme zastávky, výhledy a místa, která mají atmosféru. Výsledkem jsou výlety, na které se nezapomíná.
           </p>
           <ul className="space-y-2 mb-8">
             {pillars.map((item) => (
               <li key={item} className="flex items-start gap-2 text-sm text-foreground">
-                <CheckCircle2 className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 {item}
               </li>
             ))}

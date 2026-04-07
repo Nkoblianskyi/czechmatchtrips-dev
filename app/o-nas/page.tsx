@@ -8,7 +8,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'O nás — CzechMatchTrips',
-  description: 'Jsme tým vášnivých sportovců a průvodců. Vytváříme autorské sportovní zájezdy po Česku a Evropě.',
+  description: 'Jsme tým průvodců. Vytváříme autorské výlety a vícedenní túry po Česku i Evropě v malých skupinách.',
 }
 
 const values = [
@@ -30,12 +30,12 @@ const values = [
   {
     icon: Award,
     title: 'Zkušení průvodci',
-    text: 'Náš tým tvoří aktivní sportovci s desetiletými zkušenostmi z horské turistiky, cyklistiky i maratonů.',
+    text: 'Náš tým tvoří zkušení průvodci se zkušenostmi z hor, vícedenních přechodů, cyklovýletů i cestování na lehko.',
   },
 ]
 
 const stats = [
-  { value: '6', label: 'Druhů sportů' },
+  { value: '6', label: 'Typů tras' },
   { value: '12', label: 'Destinací' },
   { value: '200+', label: 'Spokojených cestovatelů' },
   { value: '4', label: 'Roky zkušeností' },
@@ -65,11 +65,11 @@ export default function AboutPage() {
                   ne jen zájezdy
                 </h1>
                 <p className="text-muted-foreground leading-relaxed text-base max-w-md">
-                  CzechMatchTrips vznikl z jednoduché myšlenky: sport a cestování patří k sobě. Jsme malý tým nadšenců, kteří věří, že nejlepší cesta k poznání krajiny je na kole, vlastních nohách nebo na kajaku.
+                  CzechMatchTrips vznikl z jednoduché myšlenky: krajina se poznává nejlíp pomalu a naplno. Jsme malý tým průvodců a nadšenců, kteří věří, že nejlepší cesta k zážitkům je na kole, pěšky nebo na vodě.
                 </p>
               </div>
 
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative aspect-4/3 overflow-hidden">
                 <Image
                   src="/images/about-team.jpg"
                   alt="Náš tým průvodců"
@@ -132,13 +132,13 @@ export default function AboutPage() {
               <span className="text-xs font-bold uppercase tracking-[0.25em] text-primary">Náš příběh</span>
               <h2 className="font-black text-3xl uppercase mt-2 mb-6 text-balance">Od vášně k profesi</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Vše začalo jednou dlouhou cyklojízdou přes Šumavu. Tehdy jsme si uvědomili, jak málo existuje organizovaných sportovních výletů, které jsou skutečně autorské — bez nudných skupinových autobusů a povrchního turismu.
+                Vše začalo jednou dlouhou cyklojízdou přes Šumavu. Tehdy jsme si uvědomili, jak málo existuje výletů, které jsou skutečně autorské — bez davů, bez spěchu a bez povrchního „odškrtávání“ míst.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Rozhodli jsme se to změnit. Začali jsme navrhovat vlastní trasy, testovat je na vlastní kůži a postupně budovat komunitu aktivních cestovatelů, kteří chtějí více než jen pohlednice.
+                Rozhodli jsme se to změnit. Začali jsme navrhovat vlastní trasy, testovat je na vlastní kůži a postupně budovat komunitu cestovatelů, kteří chtějí víc než jen pohlednice.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Dnes operujeme v šesti sportovních kategoriích a nabízíme zájezdy po celé Evropě. Naše základna je v Čechách, zázemí máme na Kypru, ale srdce nám bije všude tam, kde vedou pěkné trasy.
+                Dnes nabízíme několik typů tras a výletů po celé Evropě. Naše základna je v Čechách, zázemí máme na Kypru, ale doma jsme všude tam, kde vedou pěkné cesty a jsou silné zážitky.
               </p>
             </div>
           </div>

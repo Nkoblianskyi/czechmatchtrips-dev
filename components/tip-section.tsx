@@ -18,13 +18,13 @@ const tips = [
   },
   {
     icon: Zap,
-    title: 'Trénink před výjezdem',
-    body: 'Začněte kondičně přípravu minimálně 4 týdny před náročnějšími výlety. Tělo zvládne víc, zážitek bude lepší.',
+    title: 'Příprava před výjezdem',
+    body: 'Před náročnější túrou si dopřejte pár kratších výletů a zkontrolujte vybavení. Budete se soustředit na krajinu, ne na řešení detailů po cestě.',
   },
   {
     icon: Shield,
-    title: 'Pojištění na dobrodružství',
-    body: 'Standardní cestovní pojištění nemusí krýt horskou záchrannou službu. Sjednajte pojistku na sport a hory.',
+    title: 'Pojištění a podmínky',
+    body: 'Standardní cestovní pojištění nemusí krýt zásah horské záchranné služby. Ověřte si limity a připojištění pro pobyt v horách podle náročnosti trasy.',
   },
   {
     icon: Users,
