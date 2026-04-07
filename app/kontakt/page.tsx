@@ -14,12 +14,6 @@ const contactInfo = [
     href: 'mailto:info@czechmatchtrips.com',
   },
   {
-    icon: Phone,
-    label: 'Telefon',
-    value: '+420 123 456 789',
-    href: 'tel:+420123456789',
-  },
-  {
     icon: MapPin,
     label: 'Adresa',
     value: 'K.C. NTOMATA LIMITED\nStylianou Lena, 24 Christiana Court,\nFlat/Office 202, Strovolos,\n2019 Nicosia, Cyprus',

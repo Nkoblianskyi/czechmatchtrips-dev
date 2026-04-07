@@ -287,19 +287,6 @@ export default function TourDetailPage() {
 
                     <div>
                       <label className="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-1">
-                        Telefon
-                      </label>
-                      <input
-                        type="tel"
-                        value={form.phone}
-                        onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                        placeholder="+420 000 000 000"
-                        className="w-full bg-background border border-border px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground/50 outline-none focus:border-primary transition-colors"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-1">
                         Zpráva *
                       </label>
                       <textarea
